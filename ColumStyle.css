@@ -18,3 +18,12 @@
     height: 50px;
     border: 1px solid black;
 }
+.item1{
+    flex: 1;
+}
+.item2{
+    flex: 1;
+}
+.item3{
+    flex: 2;
+}
