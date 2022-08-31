@@ -1,10 +1,10 @@
 h1{
-    color:greenyellow
+    color:rgb(255, 130, 47)
 }
 p{
     text-align: center;
     color:rgb(150, 4, 207);
-    font-size: 25px;
+    font-size: 20px;
 }
 #texto1{
     color: dodgerblue;
@@ -145,5 +145,46 @@ li:first-child{
     color: white;
     margin-left: 18px;
     margin-top: 18px;
+}
+.nombre{
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-color: #32035e;
+}
+.parrafo{
+    word-spacing: 5px;
+    line-height: 30px;
+    text-shadow: 3px 3px 3px rgb(255, 0, 106),5px 6px 2px yellowgreen;
+    font-style:italic;
+    font-weight: 600;
+}
+.ciudades li{
+    list-style-type:lower-alpha;
+    margin-left: 40px;
+}
+#customers{
+    border-collapse: collapse;
+    width: 100%;
+}
+#customers td, #customers th{
+    border: 1px solid rgb(91, 172, 248);
+    padding: 8px;
+}
+#customers tr:hover{background-color: rgb(152, 252, 243);}
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(86, 139, 141);
+    color: rgb(0, 48, 119);
+}
+h6{
+    color: yellow;
+}
+#jugador{
+    color: blue;
+}
+.player{
+    color: red;
 }
 
